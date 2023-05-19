@@ -15,7 +15,6 @@ import AllServices from "./components/AllServices";
 
 
 
-
 // Ads Components
 import AdvertiserForm from "./components/Ads/AdvertiserForm";
 import PropertyCatalog from "./components/Ads/PropertyCatalog";
@@ -29,7 +28,6 @@ import AdvertiserLogin from "./components/Ads/AdvertiserLogin";
 import AdminViewAds from "./components/Ads/AdminViewAds";
 import AdminUpdateAds from "./components/Ads/AdminUpdateAds";
 import AdvertiserDetails from "./components/Ads/AdvertiserDetails";
-
 
 
 //Lab components
