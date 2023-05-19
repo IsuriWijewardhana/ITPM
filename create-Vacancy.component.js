@@ -111,6 +111,9 @@ export default class CreateVacancy extends Component {
             <div class = "row" >
             <div class = "col-6" >
             <br/ > < br/ > < br/ > < br/ > < br/ > < br/ >
+            <img src = "https://c.tenor.com/L5g2mZgoLykAAAAS/office-of-course.gif"
+            width = "90%"
+            height = "60% " />
            
             </div> <div class = "col-6" >
             <div class = "myformstyle2" >
