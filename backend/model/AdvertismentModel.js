@@ -19,6 +19,8 @@ const AdvertismentSchema = new Schema({
     
 });
 
+
+
 const Ads = mongoose.model("AdvertismentModel", AdvertismentSchema);
 
 module.exports = Ads;

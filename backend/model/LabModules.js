@@ -25,5 +25,7 @@ const labSchema = new mongoose.Schema({
   },
 });
 
+
+
 const labReport = mongoose.model("Report", labSchema);
 module.exports = labReport;
