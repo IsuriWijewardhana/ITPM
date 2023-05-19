@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 //import "./vacancylist.css"
+import "./programlist.css";
 
 
 
@@ -96,9 +97,9 @@ export default class ProgramList extends Component {
                 <cpntainer>
 
             <div >
-            <nav className = "navbar navbar-dark bg-dark-nav navbar-expand-lg d-flex" style={{background:"green"}}>
+            <nav className = "navbar navbar-dark bg-dark-nav navbar-expand-lg d-flex" style={{background:"lightblue"}}>
             <Link to = "/" 
-            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10">        Career Guidance Program Management </font></Link> 
+            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10"><font color="black"> Career Guidance Program Management</font>  </font></Link> 
             <div className = "collpase navbar-collapse flex-grow-0" >
             <form class="form-inline my-2 my-lg-0">
             <ul className = "navbar-nav mr-auto" >
