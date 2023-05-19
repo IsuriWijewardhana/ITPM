@@ -90,7 +90,6 @@ const removeVacancy = async (req, res) => {
   }
 }
 
-
 module.exports = {
   addVacancy,
   getvacancy,
