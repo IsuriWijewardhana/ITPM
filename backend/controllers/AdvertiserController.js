@@ -17,6 +17,7 @@ const addAdvertiser = (req, res) => {
         Adv_email,
     });
   
+    
     newAdvertiser
       .save()
       .then((createdAdvertiser) => {

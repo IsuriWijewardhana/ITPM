@@ -21,6 +21,7 @@ const loginUser = (req, res) => {
     res.status(401).json({ error: "Email or Password doesn't match" });
   }
 
+  
   AppUser.findOne({ email: req.body.email }, function (err, doc) {
     if (err) {
       res.status(401).json({ error: "Email or Password doesn't match" });
