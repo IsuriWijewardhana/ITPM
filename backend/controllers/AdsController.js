@@ -50,6 +50,7 @@ const getAds = async (req, res) => {
   }
 };
 
+
 const getsingleAd = async (req, res) => {
   try {
     const id = req.params.id;
@@ -59,6 +60,7 @@ const getsingleAd = async (req, res) => {
     res.status(400).json(error);
   }
 };
+
 
 const updateAds = async (req, res) => {
   const advID = req.params.id;
